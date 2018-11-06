@@ -14,6 +14,8 @@ SECTIONS
 	.calculateBattleDamage : {lucky.o(.calculateBattleDamage)}
 	/*. = 0x802984C;
 	.handleWeaponEffect : {lucky.o(.handleWeaponEffect)}*/
+	. = 0x80298A4;
+	.weaponEffectID_devilReversal : {lucky.o(.weaponEffectID_devilReversal)}
 	
 	/* Global variables */
 	forceFlag = 0x203A3D4;

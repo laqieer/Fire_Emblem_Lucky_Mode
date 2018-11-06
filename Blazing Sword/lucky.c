@@ -184,3 +184,8 @@ void handleWeaponEffectWrapper(u8 dataAttacker[], u8 dataDefender[])
 {
 	handleWeaponEffect(dataAttacker, dataDefender);
 }
+
+// Disable Devil Reversal Effect
+__attribute__((section(".weaponEffectID_devilReversal")))
+//const int weaponEffectID_devilReversal = 0xD1212804;
+const u32 weaponEffectID_devilReversal = 0xD12128FF;
