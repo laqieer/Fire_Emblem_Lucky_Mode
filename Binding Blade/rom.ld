@@ -3,7 +3,7 @@ SECTIONS
 	/* Common sections */
 	. = 0x8000000;
 	.rom : {rom.o(.rom)}
-	. = 0x9000000;	
+	. = 0x8800000;	
 	.text : {*(.text)}
 	.rodata : {*(.rodata)}
 	
