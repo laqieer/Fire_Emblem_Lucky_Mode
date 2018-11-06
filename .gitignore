@@ -58,3 +58,8 @@ dkms.conf
 # Game save files
 *.sav
 *.sgm
+
+# Pacth files
+*.ips
+*.ups
+*.bps
